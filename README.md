@@ -13,3 +13,7 @@ Please check [this](https://isuruabeywardana968111.invisionapp.com/freehand/Anim
 
 # Techstack
 - Node JS, Express, Mongodb/SQL
+
+# How to contribute
+- Please check the issues. If you have any doubt please comment there.
+- Please comment before you start work on the issue (this will help us to minimize duplicate contributions)
