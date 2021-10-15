@@ -31,7 +31,7 @@ const loginController = (req,res,next)=>{
             else
             {
                 const tokenuser = {userId:user[0]._id,username:user[0].username}
-                jwt.sign(tokenuser,process.env.token_secret,{expiresIn:'2d'},(err,token)=>{
+                jwt.sign(tokenuser,process.env.TOKEN_SECRET,{expiresIn:'2d'},(err,token)=>{
                     if(err)
                     {
                         console.log(err)

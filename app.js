@@ -14,7 +14,7 @@ app.use(express.urlencoded({ extended: true }));
 
 
 //db connection
-mongoose.connect(process.env.db_uri)
+mongoose.connect(process.env.DB_URI)
 const db=mongoose.connection;
 db.on('open',()=>{
   console.log('database connected');
