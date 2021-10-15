@@ -28,7 +28,7 @@ db.on('error',()=>{
 const route=require('./Routes/userRoutes');
 app.use("/api",route);
 
-//exception for wrong requests
+//handling wrong requests
 app.use((req,res,next)=>{
   var error=new HttpError('not found',404);
   next(error);

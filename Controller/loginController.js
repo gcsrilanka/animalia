@@ -44,7 +44,7 @@ const loginController = (req,res,next)=>{
             }
         }
     })
-    // return res.send('success');   
+    
 }
 
 module.exports = loginController;
